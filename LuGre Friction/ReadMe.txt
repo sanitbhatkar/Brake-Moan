@@ -1,5 +1,5 @@
-o ##Motivation: Brake moan noise is low frequency noise occurring at low speed. Multiple factors like stick-slip, mode coupling and atmospheric conditions can be the cause. CEA is good to predict the squeal noise but fails to predict the brake moan. The outcome of the project is to setup the MBD model to predict the moan noise.
-o ##Contact Modelling: 
+o Motivation: Brake moan noise is low frequency noise occurring at low speed. Multiple factors like stick-slip, mode coupling and atmospheric conditions can be the cause. CEA is good to predict the squeal noise but fails to predict the brake moan. The outcome of the project is to setup the MBD model to predict the moan noise.
+o Contact Modelling: 
 1. LuGre friction model static parameters: The brake dynamometer is run in the velocity controlled mode to obtain the Stribeck curve. A Metaheuristic Differential evolution algorithm is used for minimize the measured and predicted error for obtaining the static parameters of LuGre model.
 2. LuGre friction model dynamic parameters: The brake dynamometer is run in torque controlled mode in the pre-sliding region to get the hysteresis curve. A Metaheuristic Differential evolution algorithm is used for minimize the measured and predicted error for obtaining the dynamic parameters of LuGre model.
-o ##MotionSolve Python script is developed for simple belt slider assembly to model the contact and friction forces.
+o MotionSolve Python script is developed for simple belt slider assembly to model the contact and friction forces.
